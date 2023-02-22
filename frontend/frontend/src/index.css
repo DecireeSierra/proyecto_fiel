@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container_personalizado{
+  max-width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+/*CLASES DEL HEADER*/
+.logo_settings{
+  object-fit: cover;
+  margin: 0 0 0 10px;
+  width: 50%;
+}
+.background_settings{
+  background: #b330d4;
+}
+.image_settigs{
+  width: 15%;
+  display: flex;
+  position: relative;
+  height: 60px;
+  align-items: center;
+}
+.menu_settings{
+  width: 70%;
+}
+.menu_settings ul{
+  width: 70%;
+}
+.menu_settings ul li{
+  width: 20%;
+  text-align: center;
+  color: #5ce1e6;
+  Font-weight: 400;
+}
+.menu_settings ul li a{
+  color: white !important;
+  Font-weight: 400;
+  font-size: medium;
+}
+.menu_settings ul li a:hover{
+  color: #5ce1e6 !important;
+  Font-weight: bold;
+}
+.buttons_settings, .search_settings{
+  width: 35% !important;
+}
+.buttons_settings button{
+  margin-right: 20px;
+  border-color: white;
+  color: white;
+}
+.buttons_settings button:hover{
+  border-color: #fc908e;
+  background: #fc908e;
+  color: white;
+}
+.btn_personalizado{
+  border-color: white !important;
+  color: white !important;
+  font-size: medium !important;
+}
+.btn_personalizado:hover{
+  border-color: #fc908e !important;
+  background: #fc908e !important;
+  color: white !important;
+}
+
+/*TITULO*/
+.container_titulo{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  position: relative;
+}
+.titulo_settings{
+  color: #5ce1e6;
+  font-family: 'Modak', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+/*BOTONES INICIO*/
+.container_principal{
+  /*display: flex;*/
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+
+.mx-auto2{
+  width: 350px !important;
+  height: 300px;
+  margin: 0 auto;
+  background-color: lavender;
+  align-items: center;
+}
+
+.btn_inicio_settings{
+  height: 80px !important;
+  background: #b330d4 !important;
+  color: black !important;
+  font-weight: 300 !important;
+  font-size: 40px !important;
+  border-color: #b330d4;
+}
+
+.centrar{
+  margin-top: 60px !important;
+}

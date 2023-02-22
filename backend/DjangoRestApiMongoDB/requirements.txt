@@ -1,0 +1,4 @@
+django
+zappa
+djangorestframework 
+djangorestframework-simplejwt 

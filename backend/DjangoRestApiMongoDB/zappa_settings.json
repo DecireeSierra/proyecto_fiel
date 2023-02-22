@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "django_settings": "DjangoRestApiMongoDB.settings",
+        "profile_name": "default",
+        "project_name": "djangorestapimo",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-nmjob4pp5",
+        "aws_region": "us-east-1"
+    }
+}
