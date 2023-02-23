@@ -5,7 +5,7 @@ class botones_inicio extends React.Component{
         return(
                 <div className="container_principal">
                     <div className="titulo_settings">
-                        Ingresar
+                        modifique este título Dayana
                     </div>
                     <div class="mx-auto2">
                         <div className="d-grid gap-4 col-6  mx-auto">
